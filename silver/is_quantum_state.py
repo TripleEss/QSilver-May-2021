@@ -9,7 +9,3 @@ def is_quantum_state(quantum_state):
     # so we use the following trick
     if (length_square - 1)**2 < 0.00000001: return True 
     return False
-for i in range(10):
-    new_state = random_complex_quantum_state()
-    print(new_state)
-    print("Is it valid?",is_quantum_state(new_state))
